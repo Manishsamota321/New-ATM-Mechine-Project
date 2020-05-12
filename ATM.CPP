@@ -1,10 +1,9 @@
-#include<iostream.h>
-#include<stdio.h>
-#include<conio.h>
-#include<string.h>
-void main()
+#include <iostream>
+using namespace std;
+
+int main()
 {
- clrscr();
+ 
  int a,l;
  cout<<"Welcome on our ATM service";
  cout<<"\nPlease select the language";
@@ -132,7 +131,8 @@ void main()
 	    else
 	    cout<<"\nPlease enter the valid key for select the laguage ";
 cout<<"\n***Thank you for using our service***";
-getch();
+
+return 0;
 }
 
 
